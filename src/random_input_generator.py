@@ -19,7 +19,7 @@ class RandomInputGenerator :
         """
         self.num_files = num_files
         self.data_dir = os.path.join(os.path.abspath(os.path.dirname(__file__)),
-                                     '../../input')  # Define the path to the 'input' directory
+                                     '../input')  # Define the path to the 'input' directory
 
     def generate_inputs(self) :
         """
