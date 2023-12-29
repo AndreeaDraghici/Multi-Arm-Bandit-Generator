@@ -5,7 +5,7 @@ import yaml
 def load_logging_config() :
     try :
         # Load the configuration from the YAML file
-        with open('../logging_config.yml', 'r') as config_file :
+        with open('logging_config.yml', 'r') as config_file :
             # Read and parse the YAML configuration
             config = yaml.safe_load(config_file.read())
             # Configure the logging using the dictionary-based configuration

@@ -2,6 +2,9 @@ import os
 import random
 import logging
 
+from src.load_logging_configuration import load_logging_config
+
+
 class RandomInputGenerator :
     def __init__(self, num_files=10) :
 
