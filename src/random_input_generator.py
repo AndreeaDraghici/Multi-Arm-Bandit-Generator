@@ -35,9 +35,9 @@ class RandomInputGenerator :
 
             self.logger.info(f"Generating {self.num_files} random input files.")
             for i in range(1, self.num_files + 1) :
-                num_arms = random.randint(2, 10)  # Generate a random number of arms
-                num_iterations = random.randint(500, 1500)  # Generate a random number of iterations
-                epsilon = round(random.uniform(0.05, 0.3), 2)  # Generate a random epsilon
+                num_arms = random.randint(5, 15)  # Generate a random number of arms
+                num_iterations = random.randint(1500, 50000)  # Generate a random number of iterations
+                epsilon = round(random.uniform(0.1, 0.5), 2)  # Generate a random epsilon
 
                 file_path = os.path.join(self.data_dir, f'input{i}.txt')
 
