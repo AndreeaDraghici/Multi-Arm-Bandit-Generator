@@ -57,8 +57,7 @@ used to configure logging in the tool.
 
 ### Step 6: Run the Generator
 
-Open the Python file containing the code in PyCharm. To generate random input files, instantiate the _
-RandomInputGenerator_ class and call the _generate_inputs_ method. By
+Open the Python file containing the code in PyCharm. To generate random input files, instantiate the _RandomInputGenerator_ class and call the _generate_inputs_ method. By
 default, the tool generates 10 input files, each containing random values for the number of arms, total iterations, and
 epsilon. Run the script to generate random input files.
 
