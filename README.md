@@ -7,36 +7,73 @@ Multi-Arm Bandit algorithms.
 
 ## Usage
 
-### 1. Installation
+### Installation
 
-Clone the repository to your local machine:
+#### Step 1: Install Python
 
-``git clone <repository_url>``
+1. _**Download Python:**_
+   Visit the official Python website (https://www.python.org/downloads/) and download the 3.10 version of Python for
+   your operating system (Windows, macOS, or Linux).
 
-`cd <repository_directory>`
 
-### 2. Dependencies
+2. _**Install Python:**_
+   Follow the installation instructions provided on the Python website to install Python on your machine. Make sure to
+   check the option that adds Python to your system PATH during installation.
 
-Make sure to install the required dependencies. You can install them using the following command:
+### Step 2: Install PyCharm
+
+1. **_Download PyCharm:_** Visit the official PyCharm website (https://www.jetbrains.com/pycharm/download/) and download
+   the version of PyCharm
+   Community Edition, which is free to use.
+
+
+2. **_Install PyCharm:_**
+   Follow the installation instructions provided on the PyCharm website to install PyCharm on your machine.
+
+### Step 3: Clone the Repository
+
+**Open Terminal/Command Prompt:**
+Open your terminal or command prompt on your machine.
+
+**Clone the repository to your local machine:**
+
+Run the following commands:
+
+``git clone <https://github.com/AndreeaDraghici/Multi-Arm-Bandit-Generator.git>``
+
+`cd <Multi-Arm-Bandit-Generator>`
+
+### Step 4: Install Dependencies
+
+Make sure to install the required dependencies. Run the following command in the terminal to install the required
+dependencies:
 
 `pip install -r requirements.txt`
 
-### 3. Configuration
+### Step 5: Configure Logging
 
-The tool uses a logging configuration file (logging_config.yml) to set up logging. The tool uses logging to provide
-information about the generation process.
+Ensure that the logging configuration file (logging_config.yml) is set up according to your preferences. This file is
+used to configure logging in the tool.
 
-### 4. Running the Generator
+### Step 6: Run the Generator
 
-To generate random input files, instantiate the RandomInputGenerator class and call the generate_inputs method. By
+Open the Python file containing the code in PyCharm. To generate random input files, instantiate the _
+RandomInputGenerator_ class and call the _generate_inputs_ method. By
 default, the tool generates 10 input files, each containing random values for the number of arms, total iterations, and
-epsilon.
+epsilon. Run the script to generate random input files.
 
 ![img.png](img.png)
 
-The generated input files will be saved in the 'input' directory.
 
-### 5. Input File Format
+###  Step 7: Check Output
+_**Check Output:**_
+Verify that the generated input files are saved in the 'input' directory.
+
+**Note:**
+If you encounter any issues during installation or execution, check for error messages and consult the documentation or
+online resources for troubleshooting.
+
+## Input File Format
 
 Each input file (input{i}.txt) follows the format:
 
@@ -46,11 +83,11 @@ Each input file (input{i}.txt) follows the format:
 
 `{epsilon}`
 
-* num_arms: Random number of arms (between 2 and 10).
+* num_arms: Random number of arms (between 5 and 15).
 
-* num_iterations: Random number of iterations (between 500 and 1500).
+* num_iterations: Random number of iterations (between 1500 and 50000).
 
-* epsilon: Random epsilon value (between 0.05 and 0.3).
+* epsilon: Random epsilon value (between 0.1 and 0.5).
 
 ## History
 
