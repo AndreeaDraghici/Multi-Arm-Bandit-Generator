@@ -9,10 +9,10 @@ Multi-Arm Bandit algorithms.
 
 ### Installation
 
-#### Step 1: Install Python
+### Step 1: Install Python
 
 1. _**Download Python:**_
-   Visit the official Python website (https://www.python.org/downloads/) and download the 3.10 version of Python for
+   Visit the official Python website [Python](https://www.python.org/downloads/) and download the 3.10 version of Python for
    your operating system (Windows, macOS, or Linux).
 
 
@@ -22,7 +22,7 @@ Multi-Arm Bandit algorithms.
 
 ### Step 2: Install PyCharm
 
-1. **_Download PyCharm:_** Visit the official PyCharm website (https://www.jetbrains.com/pycharm/download/) and download
+1. **_Download PyCharm:_** Visit the official [PyCharm](https://www.jetbrains.com/pycharm/download/) website and download
    the version of PyCharm
    Community Edition, which is free to use.
 
