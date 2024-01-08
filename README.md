@@ -9,20 +9,26 @@ Multi-Arm Bandit algorithms.
 
 ### Installation
 
-### Step 1: Install Python
+### **Step 1: Install Python**
 
 1. _**Download Python:**_
-   Visit the official Python website [Python](https://www.python.org/downloads/) and download the 3.10 version of Python for
-   your operating system (Windows, macOS, or Linux).
+   Visit the official Python website [Python](https://www.python.org/downloads/) and download the 3.10 version of Python
+   for your operating system (Windows, macOS, or Linux).
 
 
 2. _**Install Python:**_
    Follow the installation instructions provided on the Python website to install Python on your machine. Make sure to
    check the option that adds Python to your system PATH during installation.
 
-### Step 2: Install PyCharm
+**Note:**
+You can check the version of Python using the command on the command line:
 
-1. **_Download PyCharm:_** Visit the official [PyCharm](https://www.jetbrains.com/pycharm/download/) website and download
+`python --version `or `python3 --version`
+
+### **Step 2: Install PyCharm**
+
+1. **_Download PyCharm:_** Visit the official [PyCharm](https://www.jetbrains.com/pycharm/download/) website and
+   download
    the version of PyCharm
    Community Edition, which is free to use.
 
@@ -30,7 +36,7 @@ Multi-Arm Bandit algorithms.
 2. **_Install PyCharm:_**
    Follow the installation instructions provided on the PyCharm website to install PyCharm on your machine.
 
-### Step 3: Clone the Repository
+### **Step 3: Clone the Repository**
 
 **Open Terminal/Command Prompt:**
 Open your terminal or command prompt on your machine.
@@ -43,28 +49,37 @@ Run the following commands:
 
 `cd <Multi-Arm-Bandit-Generator>`
 
-### Step 4: Install Dependencies
+### **Step 4: Install Dependencies**
 
-Make sure to install the required dependencies. Run the following command in the terminal to install the required
-dependencies:
+Make sure to install the required dependencies. 
+
+**To install the necessary libraries you have two possibility:**
+
+1. Run the following command in the terminal to install the required dependencies:
 
 `pip install -r requirements.txt`
 
-### Step 5: Configure Logging
+2. To install manual the libraries in Python, you can use the _pip install <library_name>_ command like below.
+
+E.g:
+```pip install pyyaml```
+
+### **Step 5: Configure Logging**
 
 Ensure that the logging configuration file (logging_config.yml) is set up according to your preferences. This file is
 used to configure logging in the tool.
 
-### Step 6: Run the Generator
+### **Step 6: Run the Generator**
 
-Open the Python file containing the code in PyCharm. To generate random input files, instantiate the _RandomInputGenerator_ class and call the _generate_inputs_ method. By
+Open the Python file containing the code in PyCharm. To generate random input files, instantiate the _
+RandomInputGenerator_ class and call the _generate_inputs_ method. By
 default, the tool generates 10 input files, each containing random values for the number of arms, total iterations, and
 epsilon. Run the script to generate random input files.
 
 ![img.png](img.png)
 
+### **Step 7: Check Output**
 
-###  Step 7: Check Output
 _**Check Output:**_
 Verify that the generated input files are saved in the 'input' directory.
 
