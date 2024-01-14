@@ -37,8 +37,9 @@ class RandomInputGenerator :
             for i in range(1, self.num_files + 1) :
                 num_arms = random.randint(5, 15)  # Generate a random number of arms
                 num_iterations = random.randint(1500, 50000)  # Generate a random number of iterations
+                # rounds the randomly generated real number to two decimal places.
+                # This ensures uniformity in the precision of epsilon values used in experiments and can help ensure consistency in comparing results.
                 epsilon = round(random.uniform(0.1, 0.5), 2)  # Generate a random epsilon
-
                 file_path = os.path.join(self.data_dir, f'input{i}.txt')
 
                 with open(file_path, 'w') as file :
